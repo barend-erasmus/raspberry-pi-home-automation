@@ -1,0 +1,10 @@
+[Unit]
+Description=Raspberry PI Home Automation
+After=network.target
+
+[Service]
+User=pi
+ExecStart=/usr/bin/python3 /home/pi/raspberry-pi-home-automation/main.py
+
+[Install]
+WantedBy=multi-user.target

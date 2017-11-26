@@ -1,0 +1,5 @@
+sudo nano /etc/systemd/system/raspberry-pi-home-automation.service
+
+sudo systemctl start raspberry-pi-home-automation
+sudo systemctl stop raspberry-pi-home-automation
+sudo systemctl enable raspberry-pi-home-automation
